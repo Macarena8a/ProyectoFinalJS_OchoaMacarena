@@ -1,0 +1,148 @@
+
+/* GLOBALES */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*,
+::before,
+::after{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 30px;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+body{
+    position:relative;
+    padding-bottom: 1em;
+    background-image: url(./imagenes/fondo2.jpg);
+}
+/* -------------------------------------- HEADER ---------------------------------- */
+
+/* HEADER */
+#header{
+    background-image: url(./imagenes/fondo.jpg);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    opacity: 0.8;
+}
+#header nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#header nav li {
+    list-style: none;
+}
+#icon {
+    width: 10%;
+}
+#icon img {
+    width: 30%;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+#header nav li a {
+    margin: 15px 50px;
+    font-family: Viga, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    border-radius: 10px;
+    background-color: rgb(255, 80, 80);
+    opacity: 0.8;
+}
+#header nav li a:hover {
+    transition: .3s all;
+    color: #f8decd;
+    text-shadow: 0px 0px 7px black;
+    font-size: 40px;
+    opacity:1;
+}
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    color: #faebe2;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+
+/* CARRITO */
+#carrito-container{
+    margin-right: 100px;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+#cantidad{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+    padding: 2px;
+    border-radius: 100%;
+}
+#carrito{
+    font-size: 1.5em;
+}
+
+
+/*footer*/
+footer {
+    margin-top: auto;
+    background-image: url(./imagenes/fondo.jpg);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__Contacto--WhatsappIcon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 80%;
+    width: 80px;
+    opacity: 0.8;
+}
+
+.footer__Contacto--WhatsappIcon:hover {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    opacity: 1.5;
+    transition: 0.5 s all;
+}
+.footer__redes {
+    width: 80px;
+    padding: 15px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.footer__redes:hover {
+    width: 90px;
+    background-color: white;
+    opacity: 1;
+}
+
+/*section*/
+.section__indice{
+    width: 70%;
+    height: 80vh;
+    margin:0 auto;
+    padding:10px;
+    background-color: rgb(246, 231, 234);
+}
+

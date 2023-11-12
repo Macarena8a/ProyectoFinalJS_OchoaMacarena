@@ -1,0 +1,76 @@
+{
+    "productos": [
+        {
+        "id": 1,
+        "producto": "Crema NEUTROGENA HYDRO BOOST",
+        "precio": 3500,
+        "tipo": "crema hidratante",
+        "imagen": "../imagenes/producto1.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 2,
+        "producto": "Crema Lidherma HYALURONIC 4D CREAM",
+        "precio": 3200,
+        "tipo": "crema hidratante",
+        "imagen": "../imagenes/producto2.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 3,
+        "producto": "Gel Contorno De Ojos Hydrapore Antiedad Lidherma X 15 Ml ",
+        "precio": 2800,
+        "tipo": "contorno de ojos",
+        "imagen": "../imagenes/producto3.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 4,
+        "producto": "Hidratante Eucerin Hyaluron-Filler",
+        "precio": 12500,
+        "tipo": "serum",
+        "imagen": "../imagenes/producto4.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 5,
+        "producto": "Serum regenerador Dadatina ",
+        "precio": 10200,
+        "tipo": "serum",
+        "imagen": "../imagenes/producto5.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 6,
+        "producto": "Cerave Gel Limpiador Espumoso",
+        "precio": 9550,
+        "tipo": "limpiador",
+        "imagen": "../imagenes/producto6.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 7,
+        "producto": "Lidherma Hidrosomas Gel Hidratante Acido Hialuronico",
+        "precio": 6200,
+        "tipo": "crema hidratante",    
+        "imagen": "../imagenes/producto7.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 8,
+        "producto": "Crema Anti-Arrugas Vichy Lifactiv Collagen",
+        "precio": 5230,
+        "tipo": "crema hidratante",
+        "imagen": "../imagenes/producto8.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 9,
+        "producto": "SDIN Ureadin Antiarrugas Cream",
+        "precio": 5200,
+        "tipo": "crema hidratante",
+        "imagen": "../imagenes/producto9.jpg",
+        "cantidad": 1
+        }
+    ]
+}

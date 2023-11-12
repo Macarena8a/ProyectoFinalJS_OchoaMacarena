@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vita | Contacto</title>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../estilos/contact.css">
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+<body>
+    <header id="header">    
+        <nav> <!-- INICIO DEL NAV -->
+            <li id="icon">
+                <a href="../index.html" class="enlace"><img src="../imagenes/icono.ico" alt="Inicio" id="icon"></a>
+            </li>
+            <li>
+                <a href="productos.html" target="_BLANK">Tienda online</a>
+            </li>
+            <li>
+                <a href="contact.html" target="_BLANK">Contacto</a>
+            </li>
+        </nav>
+</header>
+    <main id="footer">    <!-- FOOTER -->
+        <form action="" id="formulario">
+            <center>
+                <h1>
+                    Contactanos
+                </h1>
+            </center>
+            <div>
+
+            </div>
+            <div id="form-div">
+                <div> <!-- PRIMERA PARTE DE INPUTS -->
+                    <div class="formulario__div">
+                        <input type="text" id="nombre" placeholder="Ingresá tu nombre" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-nombre">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                    <div class="formulario__div">
+                        <input type="text" id="ubicacion" placeholder="Provincia" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-ubicacion">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                </div>
+                
+                <div> <!-- SEGUNDA PARTE DE INPUTS -->
+                    <div class="formulario__div">
+                        <input type="text" id="edad" placeholder="Ingresa tu edad" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-edad">
+                            Debe ingresar un número
+                        </p>
+                        <p class="formulario__p" id="formulario__p-validation-edad2">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                    <div class="formulario__div">
+                        <input type="text" id="phone" placeholder="Ingresa tu celular" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-phone">
+                            Debe ingresar un número
+                        </p>
+                        <p class="formulario__p" id="formulario__p-validation-phone2">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <center>
+                    <textarea name="" id="textarea" cols="30" rows="10" placeholder="Indicanos en qué podemos ayudarte y te contestaremos a la brevedad."></textarea>
+                </center>
+            </div>
+            <center>
+                <input type="submit" value="SEND" id="send-button">
+            </center>
+        </form>
+        <!-- <div id="icon"></div> -->
+        <a href="../index.html" class="enlace"><img src="../imagenes/icono.ico" alt="Inicio" id="icon"></a>
+    </main>
+
+    
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="validacion.js"></script>
+</body>
+</html>
+
+
