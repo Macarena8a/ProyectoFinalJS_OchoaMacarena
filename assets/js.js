@@ -195,9 +195,10 @@ function finalizarCompra(){
         icon: 'question',
         text: `El monto total es de: $${calcularTotal()} finales`,
         showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Confirmar!'
+        confirmButtonColor: '#ff007b',
+        cancelButtonColor: '#ff007b',
+        confirmButtonText: 'Confirmar!',
+        cancelButtonText: 'Cancelar'
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire(

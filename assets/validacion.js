@@ -10,11 +10,11 @@ function validar(e) {
     validarCelular(e);
     if (validarNombre(e) && validarEdad(e) && validarUbicacion(e) && validarCelular(e)) {
         Swal.fire({
-            position: 'top-end',
+            position: 'center',
             icon: 'success',
             title: 'Your work has been saved',
-            showConfirmButton: false,
-            timer: 1500
+            showConfirmButton: true,
+            timer: 14000,
           });
     }
 }

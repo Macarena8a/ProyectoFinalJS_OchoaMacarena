@@ -15,15 +15,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../estilos/productos.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
-    <!-- NAV -->
-    <nav> 
-        <a href="../index.html" id="home-a">Inicio</a>
-        <a href="#table"><i class="fas fa-shopping-cart" id="carrito"></i></a>
-    </nav>
-
+    <!-- NAV -->    
+    <header id="header">    
+        <nav> <!-- INICIO DEL NAV -->
+            <li id="icon">
+                <a href="../index.html"><img src="../imagenes/icono.ico" alt="Inicio" id="icon"></a>
+            </li>
+            <li>
+                <a href="productos.html">Tienda online</a>
+            </li>
+            <li>
+                <a href="contact.html">Contacto</a>
+            </li>
+            <a href="#table"><i class="fas fa-shopping-cart" id="carrito"></i></a>
+        </nav>
     <!-- MAIN -->
     <main id="main">  
         <select name="ordenamiento" id="seleccion">
@@ -43,13 +52,13 @@
         <div id="div-tabla">
             <table class="table-dark" id="table">
                 <thead>
-                    <tr><th scope="col" id="fila-modified">CARRITO🛒</th></tr>
+                    <tr><th scope="col" class="fila-modified">CARRITO</th></tr>
                     <tr>
                     <th scope="col">N° Producto</th>
                     <th scope="col">Producto</th>
                       <th scope="col">Cantidad</th>
                       <th scope="col">Precio</th>
-                      <th scope="col">ELIMINAR</th>
+                      <th scope="col"class="fila-modified" >ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody id="tbody">
