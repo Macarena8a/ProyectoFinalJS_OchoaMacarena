@@ -40,14 +40,8 @@ body{
 #header nav li {
     list-style: none;
 }
-#icon {
-    width: 10%;
-}
-#icon img {
-    width: 30%;
-    margin-left: 50px;
-    border-radius: 50%;
-}
+
+
 #header nav li a {
     margin: 15px 50px;
     font-family: Viga, sans-serif;
